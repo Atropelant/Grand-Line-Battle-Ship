@@ -21,7 +21,7 @@ function tabela() {
             tab[l][c] = imagens[indice];
             const img = document.createElement("img");
             // tiroteioo
-            img.src = "src/Fire-icon.png";
+            img.src = "Fire-icon.png";
             img.width = 50;
             img.id = l + "-" + c;
             img.onclick = function () {
@@ -48,7 +48,7 @@ let barcos = 30;
 function atirar(linha, coluna) {
     let imagem = document.getElementById(linha + "-" + coluna);
     let valor = tab[linha][coluna];
-    imagem.src = "src/" + valor;
+    imagem.src = "" + valor;
     function atualizarBarcos() {
         document.getElementById("qntd").innerHTML = barcos;
     }
