@@ -1,0 +1,238 @@
+body{
+    background-color: rgb(0, 0, 68);
+}
+
+#container{
+    background-color: #49769f;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5vh;
+
+    & h1{
+        background-color: rgb(0, 0, 68);
+        color: white;
+        width: 15vw;
+        height: 10vh;
+        margin-top: -1vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-bottom-right-radius: 5%;
+        border-bottom-left-radius: 5%;
+        text-shadow: 1px 1px 1px purple;
+    }
+
+    & a{
+        background-color: rgb(0, 0, 68);
+        width: 15vw;
+        height: 6vh;
+        font-size: xx-large;
+        text-decoration: none;
+        color: purple;
+        display: flex;
+        justify-content: center;
+        border-radius: 10px;
+        margin-top: 30vh;
+        box-shadow: 0 0 5px purple, 0 0 10px purple, 0 0 20px purple;
+    }
+
+    & a:hover{
+        background-color: rgba(0, 0, 68, 0.7);
+        width: 15.05vw;
+        height: 6.05vh;
+        font-size: xx-large;
+        text-decoration: none;
+        color: rgb(180, 0, 180);
+        display: flex;
+        justify-content: center;
+        border-radius: 10px;
+        margin-top: 30vh; 
+        box-shadow: 0 0 10px purple, 0 0 15px purple, 0 0 20px purple;
+
+    }
+
+    & #voltar{
+        width: 20vw;
+    }
+}
+
+#bloco{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    & .ships{
+        border-bottom: 2px solid goldenrod;
+        color: white;
+
+        & img{
+            width: 5vw;
+        }
+    }
+
+    & #bomba{
+        
+        & p{
+            border-bottom: 2px solid black;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        & img{
+            width: 5vw;
+        }
+    }
+
+    & .paragrafos{
+        font-size: 20px;
+        width: 20vw;
+    }
+
+    & h2{
+        color: white;
+        background-color: rgb(0, 0, 68);
+        display: flex;
+        justify-content: center;
+        border-radius: 10px;
+        width: 20vw;
+    }
+
+}
+
+@media(max-width:450px){
+    #container{
+    background-color: #49769f;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2vh;
+
+    & h1{
+        background-color: rgb(0, 0, 68);
+        color: white;
+        width: 50vw;
+        height: 10vh;
+        margin-top: -1vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-bottom-right-radius: 5%;
+        border-bottom-left-radius: 5%;
+        text-shadow: 1px 1px 1px purple;
+    }
+
+    & a{
+        background-color: rgb(0, 0, 68);
+        width: 22vw;
+        height: 6vh;
+        font-size: xx-large;
+        text-decoration: none;
+        color: purple;
+        display: flex;
+        justify-content: center;
+        border-radius: 10px;
+        margin-top: 10vh;
+        box-shadow: 0 0 5px purple, 0 0 10px purple, 0 0 20px purple;
+        margin-left: 25vw;
+    }
+
+    & a:hover{
+        background-color: rgba(0, 0, 68, 0.7);
+        width: 22.05vw;
+        height: 6.05vh;
+        font-size: xx-large;
+        text-decoration: none;
+        color: rgb(180, 0, 180);
+        display: flex;
+        justify-content: center;
+        border-radius: 10px;
+        margin-top: 10vh; 
+        margin-left: 25vw;
+        box-shadow: 0 0 10px purple, 0 0 15px purple, 0 0 20px purple;
+
+    }
+
+    & #voltar{
+        width: 20vw;
+    }
+}
+
+#bloco{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    & #barcos{
+
+
+        & .ships{
+        border-bottom: 2px solid goldenrod;
+        color: white;
+        margin-left: 5vw;
+
+            & img{
+                width: 5vw;
+            }
+        }
+
+        & h2{
+            margin-left: 25vw
+        }
+    }
+
+    & #bomba{
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        
+        & p{
+            border-bottom: 2px solid black;
+        }
+
+        & img{
+            width: 5vw;
+            margin-left: 5vw;
+        }
+    }
+
+    & .paragrafos{
+        font-size: 20px;
+        margin-left: vw;
+        width: 70vw;
+    }
+
+    & h2{
+        color: white;
+        background-color: rgb(0, 0, 68);
+        border-radius: 10px;
+        width: 25vw;
+    }
+
+    & #objetivo{
+
+        & h2{
+            margin-left: 20vw;
+        }
+    }
+
+}
+
+
+
+}
